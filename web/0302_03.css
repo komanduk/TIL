@@ -1,0 +1,24 @@
+.nav__bar-logo {
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: stretch;
+}
+.content__item {
+  flex-direction: column;
+  display: inline-flex;
+}
+content img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

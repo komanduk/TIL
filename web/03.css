@@ -1,0 +1,21 @@
+div {
+  border: black;
+  border-style: solid;
+  margin: auto 100px;
+  display: inline-block;
+}
+.o {
+  width: 100px;
+  height: 50px;
+  background-color: orangered;
+}
+.t {
+  width: 100px;
+  height: 50px;
+  background-color: orange;
+}
+.th {
+  width: 100px;
+  height: 50px;
+  background-color: orchid;
+}
